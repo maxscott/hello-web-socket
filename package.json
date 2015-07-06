@@ -1,0 +1,29 @@
+{
+  "name": "tag",
+  "version": "1.0.0",
+  "description": "multiplayer game of tag using websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maxwerr/tag-server.git"
+  },
+  "author": "Maximus I",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxwerr/tag-server/issues"
+  },
+  "homepage": "https://github.com/maxwerr/tag-server#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "mockery": "^1.4.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "express": "^4.13.0",
+    "websocket": "^1.0.19"
+  }
+}
