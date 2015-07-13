@@ -19,6 +19,7 @@ client.on('connect', function(connection) {
     }
   });
 
+  client.connection = connection;
   /*function sendNumber() {
     if (connection.connected) {
       var number = Math.round(Math.random() * 0xFFFFFF);
